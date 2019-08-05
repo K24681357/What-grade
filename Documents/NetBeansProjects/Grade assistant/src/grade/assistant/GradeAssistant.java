@@ -17,7 +17,7 @@ import java.util.Scanner;
             System.out.print("What assignment grade(%): ");
      double grade = Integer.parseInt(reader.nextLine());
      
-     if(grade==0){// breaks out of the cycle. Should then give final result.
+     if(grade==0){
             break;
         }  
         System.out.print("What is the assignment weighting?: ");
