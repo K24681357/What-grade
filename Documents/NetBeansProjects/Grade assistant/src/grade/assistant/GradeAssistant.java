@@ -27,7 +27,6 @@ import java.util.Scanner;
            int m = Integer.parseInt(reader.nextLine());
         
          if (m ==0){
-        
          resulta +=((grade/100)*weight);
          i++;
         }
